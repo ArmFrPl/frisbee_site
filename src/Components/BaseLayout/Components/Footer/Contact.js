@@ -1,6 +1,6 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {faEnvelope, faMobileAlt} from "@fortawesome/free-solid-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome/index";
+import {faEnvelope, faMobileAlt} from "@fortawesome/free-solid-svg-icons/index";
 
 class Contact extends React.Component {
   render() {

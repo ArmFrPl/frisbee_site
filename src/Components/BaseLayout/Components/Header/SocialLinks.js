@@ -1,7 +1,7 @@
 import React from "react";
 
-import {faFacebook, faInstagram, faYoutube} from "@fortawesome/free-brands-svg-icons";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import {faFacebook, faInstagram, faYoutube} from "@fortawesome/free-brands-svg-icons/index";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome/index";
 
 class SocialLinks extends React.Component {
   render() {

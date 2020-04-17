@@ -1,7 +1,7 @@
 import React from 'react';
-import Header from "./Header";
-import Navbar from "./Navbar";
-import Footer from "./Footer";
+import Header from "./Components/Header/Header";
+import Navbar from "./Components/Navbar";
+import Footer from "./Components/Footer/Footer";
 
 class BaseLayout extends React.Component {
   render(){
@@ -10,7 +10,11 @@ class BaseLayout extends React.Component {
         <Header/>
         <Navbar/>
         <div className="content">
-          {this.props.children}
+          {
+            console.log(this.props)}
+          {
+            this.props.children
+          }
         </div>
         <Footer/>
       </div>

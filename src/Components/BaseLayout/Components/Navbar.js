@@ -13,9 +13,9 @@ class Navbar extends React.Component {
             <NavLink className="nav-link" exact to="/">Home <span className="sr-only">(current)</span></NavLink>
           </li>
           <li className="nav-item dropdown">
-            <NavLink className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" to="/contactUs" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               About
-            </NavLink>
+            </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <NavLink className="dropdown-item" to="/contactUs">Contact Us</NavLink>
               <NavLink className="dropdown-item" to="/about">About Ultimate</NavLink>
@@ -23,12 +23,12 @@ class Navbar extends React.Component {
             </div>
           </li>
           <li className="nav-item dropdown">
-            <NavLink className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" to="/learnToPlay" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <a className="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
               Events
-            </NavLink>
+            </a>
             <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-              <NavLink className="dropdown-item" to="/schedule">Tournament Schedule</NavLink>
-              <NavLink className="dropdown-item" to="/Camps">Camps</NavLink>
+              <NavLink className="dropdown-item" to="/tournaments">Tournament Schedule</NavLink>
+              <NavLink className="dropdown-item" to="/camps">Camps</NavLink>
               <NavLink className="dropdown-item" to="/learnToPlay">Learn to Play</NavLink>
             </div>
           </li>
