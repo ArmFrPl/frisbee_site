@@ -3,7 +3,7 @@ import {NavLink} from "react-router-dom";
 
 class Navbar extends React.Component {
   render() {
-    return <nav className="navbar sticky-top navbar-expand-lg navbar-light nav-fill w-100">
+    return <nav className="navbar navbar-expand-lg navbar-light nav-fill w-100">
       <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon" />
       </button>
@@ -20,6 +20,7 @@ class Navbar extends React.Component {
               <NavLink className="dropdown-item" to="/contactUs">Contact Us</NavLink>
               <NavLink className="dropdown-item" to="/about">About Ultimate</NavLink>
               <NavLink className="dropdown-item" to="/aboutUs">About Armenian Ultimate</NavLink>
+              <NavLink className="dropdown-item" to="/teams">Our Teams</NavLink>
             </div>
           </li>
           <li className="nav-item dropdown">

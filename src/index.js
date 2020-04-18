@@ -1,17 +1,17 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import {BrowserRouter, Switch, Route} from "react-router-dom";
-import BaseLayout from "./containers/BaseLayout/BaseLayout";
+import BaseLayout from "./Components/BaseLayout/BaseLayout";
 
-import App from './containers/App';
-import ContactUs from './containers/About/ContactUs';
-import About from './containers/About/About';
-import AboutUs from './containers/About/AboutUs';
-import Teams from './containers/About/Teams';
-import Tournaments from './containers/Events/Tournaments';
-import Camps from './containers/Events/Camps';
-import LearnToPlay from './containers/Events/LearnToPlay';
-import Shop from './containers/Shop/Shop';
+import App from './Components/App';
+import ContactUs from './Components/About/ContactUs';
+import About from './Components/About/About';
+import AboutUs from './Components/About/AboutUs';
+import Teams from './Components/About/Teams';
+import Tournaments from './Components/Events/Tournaments';
+import Camps from './Components/Events/Camps';
+import LearnToPlay from './Components/Events/LearnToPlay';
+import Shop from './Components/Shop/Shop';
 
 
 ReactDOM.render(
