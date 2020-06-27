@@ -10,6 +10,7 @@ class BaseLayout extends React.Component {
         <Header/>
         <Navbar/>
         <div className="content">
+          {/*{console.log(this.props)}*/}
           {
             this.props.children
           }

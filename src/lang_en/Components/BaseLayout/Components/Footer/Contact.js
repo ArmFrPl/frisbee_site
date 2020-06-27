@@ -9,11 +9,14 @@ class Contact extends React.Component {
       <p>
         <FontAwesomeIcon icon={faMobileAlt} />
         &nbsp;37493763963
-        </p>
+      </p>
       <p>
         <FontAwesomeIcon icon={faEnvelope} />
         &nbsp;armnuff@gmail.com
       </p>
+      {/*<p>*/}
+      {/*  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;info@afdf.am*/}
+      {/*</p>*/}
     </div>;
   }
 }
