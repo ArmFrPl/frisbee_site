@@ -13,13 +13,13 @@
 .contactForm{
   display: inline-block;
   float: left;
-  font-size: 1.5rem;
+  font-size: 1.4rem;
   font-family: 'Finger Paint', cursive;
 }
 .heading2{
   color: #b41100;
   font-family: 'Hanalei', cursive;
-  font-size: 3.125rem;
+  font-size: 3rem;
   margin-top: 9%;
   margin-bottom:0;
   display: inline-block;
@@ -38,5 +38,5 @@
 }
 .socMed{
   font-family: 'Finger Paint', cursive;
-  font-size: 1.4rem;
+  font-size: 1.2rem;
 }
