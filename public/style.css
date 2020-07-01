@@ -41,13 +41,6 @@ header{
 .dropdown-menu {
   background: radial-gradient(circle, rgba(187,0,0,1) -0%, rgba(42,0,0,1) 94%);
 }
-
-/* .dropdown-menu:active{
-  color: #fff !important;
-  text-decoration: none;
-  background-color: #d01601 !important;
-} */
-
 .dropdown-item{
   border-radius: 15px;
   color: #ffffff !important;
@@ -59,8 +52,6 @@ header{
 }
 
 .active {
-  /* color: #fff !important; */
-  /* text-decoration: none; */
   background-color: transparent !important;
 }
 

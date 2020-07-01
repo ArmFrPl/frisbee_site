@@ -5,7 +5,7 @@ import BaseLayout from "./lang_en/Components/BaseLayout/BaseLayout";
 
 import App from './lang_en/Components/App';
 import ContactUs from './lang_en/Components/About/ContactUs/ContactUs';
-import About from './lang_en/Components/About/About';
+import AboutUlt from './lang_en/Components/About/AboutUlt/AboutUlt';
 import AboutUs from './lang_en/Components/About/AboutUs';
 import Teams from './lang_en/Components/About/Teams/Teams';
 import Tournaments from './lang_en/Components/Events/Tournaments';
@@ -20,7 +20,7 @@ ReactDOM.render(
       <Switch>
         <Route exact path="/" component={App} />
         <Route path="/contactUs" component={ContactUs}  />
-        <Route path="/about" component={About} />
+        <Route path="/aboutUlt" component={AboutUlt} />
         <Route path="/aboutUs" component={AboutUs} />
         <Route path="/teams" component={Teams} />
         <Route path="/tournaments" component={Tournaments} />
